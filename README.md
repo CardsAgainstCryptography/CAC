@@ -6,7 +6,7 @@ Cards Against Cryptography is based on Cards Against Humanity, which described i
 Basic Rules
 -----------
 
-See [RULES.md](https://github.com/CardsAgainstCryptography/blob/master/RULES.md) for the rules.
+See [RULES.md](https://github.com/CardsAgainstCryptography/CAC/blob/master/RULES.md) for the rules.
 
 License
 -------
