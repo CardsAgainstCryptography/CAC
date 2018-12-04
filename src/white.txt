@@ -7,10 +7,12 @@
 2-sentence Eurocrypt reviews.
 4mm reasonable margins.
 A 25-year old policy on sexual harassment.
+A 5-cycle speedup.
 A career-limiting card game.
 A dancing cryptographer.
 A genuine attempt to configure IPsec.
 A hand wavy argument.
+A hardcoded nonce.
 A non-fabricated use of pairings.
 A painfully slow Tor masturbation session.
 A popup Skype notification from ``lovemachine69'' during my keynote talk.
@@ -25,14 +27,18 @@ An ``anonymous'' reviewer insisting I cite 6 papers by the same author.
 An IACR board meeting.
 An insecure VPN straight to the Kremlin.
 An overfull hbox.
+An overlooked patent.
 An SSL vulnerability with a silly name.
 Arriving 13 minutes late to a 15 minute talk and having the gall to ask a question.
+Bad attacker models.
 Beefing up my Proposition to a Theorem because I'm that awesome.
 Best rejected paper award.
 Brexit.
 Checking my Google Scholar profile daily.
 Chocolate-covered shrimp.
 Citing personal communication.
+Clipper chip v2.0.
+Copying code from PDF files.
 Crippling student debt.
 Crypto wars.
 Deliberately hiding inefficiencies inside the big O.
@@ -41,8 +47,11 @@ Diffie but definitely not Hellman.
 Double ROT-13.
 Drinking alone.
 Dropping the word Blockchain into my research proposal as many times as possible.
+DUAL_EC.
+E-voting.
 Encrypted database security definitions.
 Explaining what my job is at a family reunion.
+Export restrictions.
 Fighting over LaTeX syntax.
 Filing a patent application for modular multiplication... in 2017.
 Forgetting my VGA adapter.
@@ -53,7 +62,9 @@ Getting stuck at the French-speaking banquet table.
 Getting tenure, then chilling the f--- right out!
 Getting turned on by a proof.
 Going straight to journal.
+Government mandated backdoors.
 Having to write a polite rebuttal to the reviewer who clearly didn't read past page 2.
+Hiding my conflict of interest.
 Hillary Clinton's BlackBerry.
 Home-baked, snake oil crypto.
 HTTPS everywhere!
@@ -75,6 +86,7 @@ My Silk Road purchase history.
 My supervisor's morning breath.
 Nigel Smart's new Hawaiian shirt.
 Overselling it hard in the introduction.
+Padding oracles.
 Password1.
 Picturing the FSE audience naked.
 Politely starting an answer with ``That's a good question...'', when the question is actually idiotic.
@@ -84,11 +96,14 @@ Pretending to understand.
 Publishing anyway.
 Putting an outdoors-y photo on my academic webpage to look well-rounded.
 Quadruple XOR.
+Quantum key distribution.
 Quickly trying to peek at someone's badge as I shake their hand, but it's flipped backwards.
+Randomness by dice roll.
 Reading the person in front's emails.
 Relatives who ask me to help them install their printer on Windows.
 Rogaway's loose morals.
 Satoshi Nakamoto.
+Schoolbook RSA.
 Sending an email at 11pm so people think I work hard.
 Sexual tension.
 Skype dropping out every 10 to 15 seconds.
@@ -101,6 +116,7 @@ Telling anyone who'll listen quite how busy I am.
 Thanking the anonymous reviewers for their ``useful'' comments.
 The awkward question the chair asks when nobody understood the talk.
 The awkward silence of 8 people standing in a circle during the afternoon coffee break.
+The CAESAR competition deadline.
 The great firewall of China.
 The great paywall of IEEE.
 The intoxicating aroma of 12 PhD students in one office.
@@ -109,6 +125,7 @@ The NSA's massive stack of amateur porn.
 The one really hot person at CHES registration drinks.
 The one suit I own for meetings with industry.
 The person in the front row taking photos of every slide.
+The PQCRYPTO mailing list.
 The secret flash drive hidden in my underwear.
 The walking zombie corpse of Claude Shannon.
 Thinking I'm so clever for using pictures of Alice (Cooper) and Bob (Marley).
@@ -117,6 +134,7 @@ Turbulent bowel movements in the middle of my Asiacrypt presentation.
 Turning up to one meeting and claiming co-authorship.
 Unbreakable military-grade encryption.
 Undergrads.
+Unnecessary Star Wars references.
 Using ``it clearly follows'' when the implied following is anything but clear.
 Using Beamer because it's social suicide to use PowerPoint.
 Using indecipherable, non-standard notation to hide a dodgy proof.
