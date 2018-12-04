@@ -41,7 +41,7 @@ It turns out that my company's password policy requires \BLANK.
 My academic CV says I'm an expert on \BLANK.
 My career started with \BLANK.
 My encryption scheme is extra secure because of \BLANK.
-My favorite crypto-currency collapsed becuase of \BLANK
+My favorite crypto-currency collapsed because of \BLANK
 My first accepted paper was on provably secure \BLANK.
 My grant application was accepted because of \BLANK
 My grant application was denied because of \BLANK
