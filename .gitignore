@@ -1,0 +1,6 @@
+*.aux
+*.data
+*.log
+*.out
+
+.DS_Store

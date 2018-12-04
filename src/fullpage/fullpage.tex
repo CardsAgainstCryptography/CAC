@@ -1,0 +1,128 @@
+% options:
+%\def\AFOURPAPER{} % otherwise use letter paper
+
+% one of the following
+%\def\BLACKBACKGROUNDGRAY{} % black cards have light gray background
+%\def\BLACKBACKGROUNDWHITE{} % black cards have white background
+
+\ifdefined\AFOURPAPER
+	\usepackage[a4paper,margin=0in]{geometry}
+	\newcommand{\PAGEWIDTH}{210mm}
+	\newcommand{\PAGEHEIGHT}{297mm}
+	\newcommand{\LEFTMARGIN}{21.18mm}
+	\newcommand{\TOPMARGIN}{17.82mm}
+	\newcommand{\CARDWIDTH}{55.88mm}
+	\newcommand{\CARDHEIGHT}{87.12mm}
+\else
+	\usepackage[letterpaper,margin=0in]{geometry}
+	\newcommand{\PAGEWIDTH}{8.5in}
+	\newcommand{\PAGEHEIGHT}{11in}
+	\newcommand{\LEFTMARGIN}{0.95in}
+	\newcommand{\TOPMARGIN}{0.355in}
+	\newcommand{\CARDWIDTH}{2.2in}
+	\newcommand{\CARDHEIGHT}{3.43in}
+\fi
+
+\usepackage{array}
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{eso-pic}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage{xspace}
+
+\usepackage{amsfonts,amsmath}
+
+\usepackage{fontspec}
+\newfontfamily\comicsans{Comic Sans MS}
+\setsansfont{Helvetica}
+
+\renewcommand{\baselinestretch}{0.85}
+
+\pretolerance=10000
+\tolerance=2000
+\emergencystretch=10pt
+
+\newcommand{\BLANK}{{\tikz \draw [line width=2pt,color=foreground] (0,0)--+(0.5in,0);}\xspace}
+
+\ifdefined\BLACKBACKGROUNDWHITE
+	\definecolor{sentencedark}{named}{black}
+	\definecolor{answerdark}{rgb}{0,0,0.6}
+	\definecolor{sentencefg}{named}{sentencedark}
+	\definecolor{sentencebg}{named}{white}
+	\definecolor{answerfg}{named}{answerdark}
+	\definecolor{answerbg}{named}{white}
+\else
+	\ifdefined\BLACKBACKGROUNDGRAY
+		\definecolor{sentencedark}{named}{black}
+		\definecolor{answerdark}{named}{black}
+		\definecolor{sentencefg}{named}{black}
+		\definecolor{sentencebg}{rgb}{0.85,0.85,0.85}
+		\definecolor{answerfg}{named}{answerdark}
+		\definecolor{answerbg}{named}{white}
+	\else % black background
+		\definecolor{sentencedark}{named}{black}
+		\definecolor{answerdark}{named}{black}
+		\definecolor{sentencefg}{named}{white}
+		\definecolor{sentencebg}{named}{sentencedark}
+		\definecolor{answerfg}{named}{answerdark}
+		\definecolor{answerbg}{named}{white}
+	\fi
+\fi
+
+\newcommand{\cardicon}{
+\begin{tikzpicture}[yscale=-1]
+\draw [color=white,fill=dark,line width=0.5pt,rotate around={-20:(0.19in,0.105in)}] (0.075in,0.105in) rectangle +(0.19in,0.19in);
+\draw [color=dark,fill=white,line width=0.5pt] (0.19in,0.105in) rectangle +(0.19in,0.19in);
+\draw [color=dark,fill=white,line width=0.5pt,rotate around={20:(0.19in,0.105in)}] (0.275in,0.073in) rectangle +(0.19in,0.19in);
+\end{tikzpicture}
+}
+
+\newcommand\backgroundobverse{%
+\begin{tikzpicture}[remember picture, overlay]
+\node [shift={(0,0)}]  at (current page.north west){
+\begin{tikzpicture}[remember picture, overlay,yscale=-1,line width=1pt]
+\draw [fill=background,background] (0,0) rectangle (\PAGEWIDTH, \PAGEHEIGHT);
+% grid lines
+\foreach \row in {0,...,3} {
+	\draw [color=foreground,line width=0.1mm] (\LEFTMARGIN, \TOPMARGIN + \row * \CARDHEIGHT) -- +(3 * \CARDWIDTH, 0in);
+};
+\foreach \col in {0,...,3} {
+	\draw [color=foreground,line width=0.1mm] (\LEFTMARGIN + \col * \CARDWIDTH, \TOPMARGIN) -- +(0in, 3 * \CARDHEIGHT);
+};
+% card icons
+\foreach \col in {0,...,2} {
+	\foreach \row in {0,...,2} {
+		\node [above right] at (\LEFTMARGIN + 0.12in + \col * \CARDWIDTH, \TOPMARGIN - 0.12in + \CARDHEIGHT + \row * \CARDHEIGHT) {\cardicon};
+	};
+};
+\end{tikzpicture}
+};
+\end{tikzpicture}
+}
+
+\newcommand{\backgroundreverse}{
+\noindent
+\begin{tikzpicture}[remember picture, overlay]
+\node [shift={(0,0.14in)}]  at (current page.south west) {
+\begin{tikzpicture}[remember picture, overlay,yscale=-1,line width=1pt]
+\draw [fill=background] (0,0) rectangle (\PAGEWIDTH, \PAGEHEIGHT);
+% grid lines
+\foreach \row in {0,...,3} {
+	\draw [color=foreground,line width=0.1mm] (\LEFTMARGIN, \TOPMARGIN + \row * \CARDHEIGHT) -- +(3 * \CARDWIDTH, 0in);
+};
+\foreach \col in {0,...,3} {
+	\draw [color=foreground,line width=0.1mm] (\LEFTMARGIN + \col * \CARDWIDTH, \TOPMARGIN) -- +(0in, 3 * \CARDHEIGHT);
+};
+% game title
+\foreach \col in {0,...,2} {
+	\foreach \row in {0,...,2} {
+		\node [below right] at (\LEFTMARGIN + 0.12in + \col * \CARDWIDTH, \TOPMARGIN + 0.12in + \row * \CARDHEIGHT) {\fontsize{20}{20}\selectfont Cards};
+		\node [below right] at (\LEFTMARGIN + 0.12in + \col * \CARDWIDTH, \TOPMARGIN + 0.42in + \row * \CARDHEIGHT) {\fontsize{20}{20}\selectfont  Against};
+		\node [below right] at (\LEFTMARGIN + 0.12in + \col * \CARDWIDTH, \TOPMARGIN + 0.72in + \row * \CARDHEIGHT) {\fontsize{20}{20}\selectfont  Cryptography};
+	};
+};
+\end{tikzpicture}
+};
+\end{tikzpicture}
+}

@@ -1,0 +1,20 @@
+\documentclass{article}
+
+\include{fullpage}
+
+\definecolor{dark}{named}{answerdark}
+\definecolor{foreground}{named}{answerfg}
+\definecolor{background}{named}{answerbg}
+
+\begin{document}
+
+\pagestyle{empty}
+
+\AddToShipoutPictureBG{\backgroundobverse}
+
+\Large\sffamily\bfseries\color{foreground}
+
+%python combine.py white.txt > white.data
+\input{white.data}
+
+\end{document}

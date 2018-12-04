@@ -1,0 +1,42 @@
+\usepackage{microtype}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage{xspace}
+
+% fonts
+\usepackage{fontspec}
+\newfontfamily\comicsans{Comic Sans MS}
+\setsansfont{Helvetica}
+
+% font settings for default text
+\newcommand{\bodyfont}{\sffamily\bfseries\fontsize{12}{12}\selectfont}
+\newcommand{\bookletfont}{\sffamily\fontsize{12}{12}\selectfont}
+\newcommand{\titlefont}{\sffamily\bfseries\fontsize{20.5}{20.5}\selectfont}
+
+% prevent hyphenation
+\pretolerance=10000
+\tolerance=2000 
+\emergencystretch=10pt
+
+% BLANK
+\newcommand{\BLANK}{{\tikz \draw [line width=1.5pt,color=cardfg] (0,0)--+(0.5in,0);}\xspace}
+
+\ifwhitecard
+	\definecolor{cardbg}{named}{white}
+	\definecolor{cardfg}{named}{black}
+	\definecolor{icondark}{named}{black}
+	\definecolor{iconlight}{named}{white}
+\else
+	\definecolor{cardbg}{named}{black}
+	\definecolor{cardfg}{named}{white}
+	\definecolor{icondark}{named}{black}
+	\definecolor{iconlight}{named}{white}
+\fi
+
+\newcommand{\cardicon}{
+	\begin{tikzpicture}[yscale=-1]
+	\draw [color=cardfg,fill=icondark,line width=0.5pt,rotate around={-20:(0.19in,0.105in)}] (0.075in,0.105in) rectangle +(0.19in,0.19in);
+	\draw [color=icondark,fill=iconlight,line width=0.5pt] (0.19in,0.105in) rectangle +(0.19in,0.19in);
+	\draw [color=icondark,fill=iconlight,line width=0.5pt,rotate around={20:(0.19in,0.105in)}] (0.275in,0.073in) rectangle +(0.19in,0.19in);
+	\end{tikzpicture}
+}

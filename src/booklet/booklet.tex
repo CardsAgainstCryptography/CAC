@@ -1,0 +1,28 @@
+% options:
+%\def\BLEEDAREA{} % put bleed area around image as required for printing at makeplayingcards.com https://www.makeplayingcards.com/dl/booklet-template/us-game-4pp.pdf
+%\def\LINES{} % put lines for cutting
+
+\definecolor{linescolor}{rgb}{0.6,0.6,0.6}
+
+\newcommand{\drawbackground}{
+	\ifdefined\BLEEDAREA
+	% background to bleed area
+	\fill[cardbg] (-0.12in, -0.12in) rectangle +(4.64in, 3.64in);
+	\fi
+	% background only to cut area
+	\fill[cardbg] (0in, 0in) rectangle +(4.4in, 3.4in);
+
+	\ifdefined\LINES
+	% guideline - cut area
+	\draw[color=linescolor,line width=0.1mm] (0in, 0in) rectangle +(4.4in, 3.4in);
+	\draw[color=linescolor,line width=0.1mm] (2.2in, 0in) rectangle +(0in, 3.4in);
+	% guideline - safe area
+	%\draw[red] (0.115in, 0.115in) rectangle +(4.17in, 3.19in);
+	%\draw[red] (2.2in - 0.115in, 0.115in) rectangle +(0in, 3.19in);
+	%\draw[red] (2.2in + 0.115in, 0.115in) rectangle +(0in, 3.19in);
+	\fi
+}
+
+\newcommand{\drawbodytext}[1]{
+	\node [cardfg,below right,text width=1.96in] at (0.12in, 0.12in) {\bodyfont #1};
+}

@@ -1,0 +1,17 @@
+\documentclass{standalone}
+
+\newif\ifwhitecard
+\whitecardtrue
+
+\input{../common}
+\input{singlecard}
+
+\begin{document}
+\begin{tikzpicture}[yscale=-1]
+
+\drawbackground
+\drawcardicon
+\drawbodytext{CARDTEXTHERE}
+
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,53 @@
+\documentclass{standalone}
+
+\newif\ifwhitecard
+\whitecardtrue
+
+\input{../common}
+\input{booklet}
+
+\begin{document}
+\begin{tikzpicture}[yscale=-1]
+
+\renewcommand{\baselinestretch}{0.8}
+
+\drawbackground
+
+% title page
+\node [cardfg,below right] at (2.2in + 0.12in, 0.12in) {\titlefont Cards};
+\node [cardfg,below right] at (2.2in + 0.12in, 0.42in) {\titlefont Against};
+\node [cardfg,below right] at (2.2in + 0.12in, 0.72in) {\titlefont Cryptography};
+\node [above right] at (2.2in + 0.12in, 3.4in - 0.12in) {\cardicon};
+
+% back page
+\node [cardfg,below right,text width=1.96in] at (0.12in, 0.12in) {
+	{\sffamily\fontsize{8}{8}\selectfont
+	Cards Against Cryptography is shamelessly based on Cards Against Humanity, which was released under a Creative Commons BY-NC-SA 2.0 license.}
+
+	\medskip
+
+	{\sffamily\fontsize{8}{8}\selectfont
+	Cards Against Cryptography is released under the same license, which means you can use, remix, and share the game for free, but cannot sell it.}
+
+	\bigskip
+
+	\includegraphics[width=0.25in]{icons/cc}
+	\includegraphics[width=0.25in]{icons/by}
+	\includegraphics[width=0.25in]{icons/nc}
+	\includegraphics[width=0.25in]{icons/sa}
+
+	\bigskip
+
+	{\sffamily\fontsize{8}{8}\selectfont
+	The source code and printable PDF versions of Cards Against Cryptography are available online at https://github.com/CardsAgainst\\Cryptography/.  You can also submit pull requests to propose new cards.
+	}
+
+	\medskip
+
+	{\sffamily\fontsize{6}{6}\selectfont
+	Asiacrypt 2018 edition.
+	}
+
+};
+\end{tikzpicture}
+\end{document}
