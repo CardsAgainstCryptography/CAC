@@ -47,7 +47,7 @@ Diffie but definitely not Hellman.
 Double ROT-13.
 Drinking alone.
 Dropping the word Blockchain into my research proposal as many times as possible.
-DUAL_EC.
+DUAL\_EC.
 E-voting.
 Encrypted database security definitions.
 Explaining what my job is at a family reunion.
