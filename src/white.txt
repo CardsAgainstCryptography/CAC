@@ -25,6 +25,7 @@ An ``anonymous'' reviewer insisting I cite 6 papers by the same author.
 An IACR board meeting.
 An insecure VPN straight to the Kremlin.
 An overfull hbox.
+An overlooked patent.
 An SSL vulnerability with a silly name.
 Arriving 13 minutes late to a 15 minute talk and having the gall to ask a question.
 Bart Preneel's \\ private key.
@@ -42,6 +43,7 @@ Diffie but definitely not Hellman.
 Double ROT-13.
 Drinking alone.
 Dropping the word Blockchain into my research proposal as many times as possible.
+DUAL\_EC\_DRBG.
 Encrypted database security definitions.
 Explaining what my job is at a family reunion.
 Fighting over LaTeX syntax.
@@ -54,7 +56,9 @@ Getting stuck at the French-speaking banquet table.
 Getting tenure, then chilling the f--- right out!
 Getting turned on by a proof.
 Going straight to journal.
+Government-mandated backdoors.
 Having to write a polite rebuttal to the reviewer who clearly didn't read past page 2.
+Hiding my conflict of interest.
 Hillary Clinton's BlackBerry.
 Home-baked, snake oil crypto.
 HTTPS everywhere!
@@ -86,6 +90,7 @@ Publishing anyway.
 Pubic key cryptography.
 Putting an outdoors-y photo on my academic webpage to look well-rounded.
 Quadruple XOR.
+Quantum key distribution.
 Quickly trying to peek at someone's badge as I shake their hand, but it's flipped backwards.
 Reading the person in front's emails.
 Relatives who ask me to help them install their printer on Windows.
