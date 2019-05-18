@@ -9,7 +9,6 @@ A career-limiting card game.
 A dancing cryptographer.
 A genuine attempt to configure IPsec.
 A hand wavy argument.
-A long-term nonce.
 A non-fabricated use of pairings.
 A painfully slow Tor masturbation session.
 A popup Skype notification from ``lovemachine69'' during my keynote talk.
@@ -29,7 +28,6 @@ An ``anonymous'' reviewer insisting I cite 6 papers by the same author.
 An inappropriate workplace romance.
 An insecure VPN straight to the Kremlin.
 An overfull hbox.
-An overlooked patent.
 Arriving 13 minutes late to a 15 minute talk and having the gall to ask a question.
 Asking for 2 room keys during check-in, knowing full well I'm not getting laid.
 Bart Preneel's \\ private key.
@@ -53,7 +51,6 @@ Doing Facebook maths puzzles to show I am better than those idiot 97\%.
 Double ROT-13.
 Drinking alone.
 Dropping the word Blockchain into my research proposal as many times as possible.
-Dual\_EC\_DRBG.
 Encrypted database security definitions.
 Explaining what my job is at a family reunion.
 Falling asleep in a 5-person meeting.
@@ -70,11 +67,9 @@ Getting stuck at the French-speaking banquet table.
 Getting tenure, then chilling the f--- right out!
 Getting turned on by a proof.
 Going straight to journal.
-Government-mandated backdoors.
 HTTPS everywhere!
 Hands-on supervision.
 Having to write a polite rebuttal to the reviewer who clearly didn't read past page 2.
-Hiding my conflict of interest.
 Hillary Clinton's BlackBerry.
 Home-baked, snake oil crypto.
 Ignoring reviewer comments and resubmitting immediately.
@@ -114,7 +109,6 @@ Publishing anyway.
 Purchasing the Springer hardcopies I publish in because my mom is collecting them.
 Putting an outdoors-y photo on my academic webpage to look well-rounded.
 Quadruple XOR.
-Quantum key distribution.
 Quickly trying to peek at someone's badge as I shake their hand, but it's flipped backwards.
 Reading the person in front's emails.
 Relatives who ask me to help them install their printer on Windows.
