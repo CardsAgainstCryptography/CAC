@@ -1,0 +1,33 @@
+% options:
+%\def\BLEEDAREA{} % put bleed area around image as required for printing at makeplayingcards.com https://www.makeplayingcards.com/dl/booklet-template/us-game-4pp.pdf
+%\def\LINES{} % put lines for cutting
+
+\newcommand{\drawbackground}{
+	\ifdefined\BLEEDAREA
+	% background to bleed area
+	\fill[cardbg] (-0.12in, -0.12in) rectangle +(2.44in, 2.44in);
+	\fi
+	% background only to cut area
+	\fill[cardbg] (0in, 0in) rectangle +(2.2in, 2.2in);
+
+	\ifdefined\LINES
+	% guideline - cut area
+	\draw[green] (0in, 0in) rectangle +(2.2in, 2.2in);
+	% guideline - safe area
+	%\draw[red] (0.12in, 0.12in) rectangle +(1.96in, 1.96in);
+	\fi
+}
+
+\newcommand{\drawcardicon}{
+	\node [above right] at (0in + 0.12in, 2.2in - 0.12in) {\cardicon};
+}
+
+\newcommand{\drawbodytext}[1]{
+	\node [cardfg,below right,text width=1.86in] at (0.12in, 0.12in) {\bodyfont #1};
+}
+
+\newcommand{\drawcardtitle}{
+	\node [cardfg,below right] at (0.12in, 0.12in) {\titlefont Cards};
+	\node [cardfg,below right] at (0.12in, 0.42in) {\titlefont Against};
+	\node [cardfg,below right] at (0.12in, 0.72in) {\titlefont Cryptography};
+}

@@ -1,3 +1,6 @@
+WHITE=white
+BLACK=black
+
 DESTINATION_PDFS=../../PDFs-to-print
 
 PDFs: letter a4
@@ -5,30 +8,30 @@ PDFs: letter a4
 letter:
 	mkdir -p ${DESTINATION_PDFS}
 	make letterblackblack
-	mv black.pdf ${DESTINATION_PDFS}/black-letter-black.pdf
+	mv black.pdf ${DESTINATION_PDFS}/${BLACK}-letter-black.pdf
 	make letterblackgray
-	mv black.pdf ${DESTINATION_PDFS}/black-letter-gray.pdf
+	mv black.pdf ${DESTINATION_PDFS}/${BLACK}-letter-gray.pdf
 	make letterblackwhite
-	mv black.pdf ${DESTINATION_PDFS}/black-letter-white.pdf
+	mv black.pdf ${DESTINATION_PDFS}/${BLACK}-letter-white.pdf
 	make letterwhitewhite
-	mv white.pdf ${DESTINATION_PDFS}/white-letter.pdf
+	mv white.pdf ${DESTINATION_PDFS}/${WHITE}-letter.pdf
 
 a4:
 	mkdir -p ${DESTINATION_PDFS}
 	make a4blackblack
-	mv black.pdf ${DESTINATION_PDFS}/black-a4-black.pdf
+	mv black.pdf ${DESTINATION_PDFS}/${BLACK}-a4-black.pdf
 	make a4blackgray
-	mv black.pdf ${DESTINATION_PDFS}/black-a4-gray.pdf
+	mv black.pdf ${DESTINATION_PDFS}/${BLACK}-a4-gray.pdf
 	make a4blackwhite
-	mv black.pdf ${DESTINATION_PDFS}/black-a4-white.pdf
+	mv black.pdf ${DESTINATION_PDFS}/${BLACK}-a4-white.pdf
 	make a4whitewhite
-	mv white.pdf ${DESTINATION_PDFS}/white-a4.pdf
+	mv white.pdf ${DESTINATION_PDFS}/${WHITE}-a4.pdf
 
 clean:
 	rm -f *.aux *.data *.log *.pdf
 
 data:
-	python3 combine.py
+	WHITE=${WHITE} BLACK=${BLACK} python3 combine.py
 
 letterblackblack: data
 	xelatex black.tex

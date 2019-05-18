@@ -11,7 +11,13 @@ def xelatex(basename):
 def pdftopng(basename):
     subprocess.run(["convert", "-density", "300", "-geometry", "732x1101", basename + ".pdf", basename + ".png"], capture_output=True)
 
-sources = ["../black.txt", "../white.txt"]
+black_prefix = os.environ["BLACK"] if "BLACK" in os.environ else "black"
+white_prefix = os.environ["WHITE"] if "WHITE" in os.environ else "white"
+black_txt = "../" + black_prefix + ".txt"
+white_txt = "../" + white_prefix + ".txt"
+
+prefixes = [black_prefix, white_prefix]
+sources = [black_txt, white_txt]
 templates = ["black", "white"]
 
 output_directory = "../../PNGs-to-print/individual-cards"
@@ -34,7 +40,7 @@ for i in range(len(sources)):
             line = line.rstrip()
             j += 1
             print("Generating {:s} card #{:d}: {:s}".format(templates[i], j, line))
-            filename = "FRONT{:03d}".format(j)
+            filename = "{:s}_FRONT{:03d}".format(prefixes[i], j)
             front_tex = front_tex_template.replace("CARDTEXTHERE", line)
             with open(filename + ".tex", 'w') as front:
                 print(front_tex, file=front)
@@ -43,6 +49,6 @@ for i in range(len(sources)):
             pdftopng(filename)
             os.remove(filename + ".pdf")
             subprocess.run(["mv", filename + ".png", output_directory])
-            filename = "BACK{:03d}".format(j)
+            filename = "{:s}_BACK{:03d}".format(prefixes[i], j)
             subprocess.run(["cp", templates[i] + "_back.png", output_directory + "/" + filename + ".png"])
         os.remove(templates[i] + "_back.png")

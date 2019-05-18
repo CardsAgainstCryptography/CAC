@@ -20,12 +20,25 @@ Cards Against Cryptography is released under the same license, which means you c
 Contributing
 ------------
 
-You can submit pull requests to propose new cards; see `src/black.txt` and `src/white.txt`.  The top-level Makefile can be used to recompile printable PDF and PNG versions of the cards (`make PDFs` or `make PNGs`) on reasonable Linux or macOS systems.  You need to have xelatex, python3, and ImageMagick's convert command in your path.
+You can submit pull requests to propose new cards; see `src/black.txt` and `src/white.txt`.
+
+Building
+--------
+
+The top-level Makefile can be used to recompile printable PDF and PNG versions of the cards:
+
+    make PDFs PNGs
+
+This should work on reasonable Linux or macOS systems.  You need to have xelatex, python3, and ImageMagick's convert command in your path.  One of the cards uses the Comic Sans font, so you need to have that on your system as well, possibly by installing the TeXLive packaging `comicsans` or installing it in your operating system's fonts folder.
+
+You can build specific releases of the cards using environment variables, e.g.
+
+    make PDFs PNGs WHITE=white-ec19-expansion BLACK=black-ec19-expansion
 
 Printed copies
 --------------
 
-Since Cards Against Humanity was released under a BY-NC-SA 2.0 license, the "non-commercial" aspect of that license implies that we cannot sell you a copy of this game.  A small number of copies were provided as prizes at the [Asiacrypt 2018 rump session](https://asiacrypt.iacr.org/2018/rumpsession.html).  There may or may not be printed copies available as prizes at future rump sessions — have a funny rump session talk prepared, just in case!
+Since Cards Against Humanity was released under a BY-NC-SA 2.0 license, the "non-commercial" aspect of that license implies that we cannot sell you a copy of this game.  A small number of copies were provided as prizes at the [Asiacrypt 2018 rump session](https://asiacrypt.iacr.org/2018/rumpsession.html) and the [Eurocrypt 2019 rump session](https://eurocrypt.iacr.org/2019/rumpsession.html).  There may or may not be printed copies available as prizes at future rump sessions — have a funny rump session talk prepared, just in case!
 
 You can make your own printed copy in three ways.  
 
@@ -36,4 +49,4 @@ You can make your own printed copy in three ways.
 Version
 -------
 
-This is the Asiacrypt 2018 edition, which was released at the Rump Session of Asiacrypt 2018.
+This is the Eurocrypt 2019 edition, which was released at the Rump Session of Eurocrypt 2019.
