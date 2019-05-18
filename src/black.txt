@@ -1,6 +1,8 @@
+A company asked me if I could help them implement \BLANK using \BLANK.
 A crypto conference is never complete without \BLANK.
 A recent laboratory study shows that undergrads have 50\% less sex after being exposed to \BLANK.
 A romantic, candlelit dinner would be incomplete without \BLANK.
+A talk titled \BLANK turned out to just be about \BLANK.
 Both Microsoft and Apple have concerns with \BLANK.
 Bruce Schneier's new book has a chapter on \BLANK.
 Despite his work at Bletchley Park, Alan Turing is little know for his work on \BLANK.
@@ -31,15 +33,20 @@ I woke up filled with shame about \BLANK.
 I'll eat my hat if anyone ever breaks \BLANK.
 I'm hoping to avoid 2/3 of the program committee, because my paper is on \BLANK.
 I'm sorry, Professor, but I couldn't complete my homework because of \BLANK.
+ISO standardization efforts were subverted by \BLANK.
 I've had it with these blockchain bros! ``Crypto'' means \BLANK.
 It took 72,000 instances, but I finally cracked \BLANK.
 It turns out that my company's password policy requires \BLANK.
 My academic CV says I'm an expert on \BLANK.
 My career started with \BLANK.
 My encryption scheme is extra secure because of \BLANK.
+My favorite crypto-currency collapsed because of \BLANK.
 My first accepted paper was on provably secure \BLANK.
+My grant application was accepted because of \BLANK.
+My grant application was denied because of \BLANK.
 My latest paper on \BLANK will help me get more citations than Mihir Bellare.
 My student couldn't complete their homework due to \BLANK.
+My upcoming publication on \BLANK uses \BLANK.
 Oh no! I just saw Koblitz and Menezes taking another look at \BLANK.
 One regret I have from my PhD is \BLANK.
 Putting \BLANK in my application helped me immensely.
@@ -49,6 +56,7 @@ TSA guidelines now prohibit \BLANK on airplanes.
 Talk dirty to me, baby. Tell me about \BLANK.
 The Bletchley Park Museum has just opened an interactive exhibit on \BLANK.
 The Israeli government stores its data with \BLANK.
+The newest side channel attack uses \BLANK.
 The next big thing will almost certainly be \BLANK.
 The talk that had the most influence on my personal life was \BLANK.
 The thing I love most about staying in the UCSB dorms during Crypto is \BLANK.
@@ -65,6 +73,7 @@ What's my secret power?
 When I am President of the United States, I will create the Department of \BLANK.
 When my crypto patents turn me into a billionaire, I will erect a 50-foot statue to commemorate \BLANK.
 Why can't I sleep at night?
+WTF! My paper on \BLANK just got rejected from the ePrint server.
 Yo' momma so dumb she encrypts her files with \BLANK.
 \BLANK kept me up all night.
 \BLANK was the last thing I expected to find in Edward Snowden's leaked documents.
