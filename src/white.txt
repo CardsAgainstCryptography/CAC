@@ -82,6 +82,7 @@ Post-quantum RSA.
 Preparing for two weeks to give a 15-minute presentation to a room of 7 people all on their laptops.
 Pretending to understand.
 Publishing anyway.
+Pubic key cryptography.
 Putting an outdoors-y photo on my academic webpage to look well-rounded.
 Quadruple XOR.
 Quickly trying to peek at someone's badge as I shake their hand, but it's flipped backwards.
