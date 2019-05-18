@@ -1,5 +1,3 @@
-\BLANK kept me up all night.
-\BLANK was the last thing I expected to find in Edward Snowden's leaked documents.
 A company asked me if I could help them implement \BLANK using \BLANK.
 A crypto conference is never complete without \BLANK.
 A recent laboratory study shows that undergrads have 50\% less sex after being exposed to \BLANK.
@@ -36,6 +34,7 @@ I'll eat my hat if anyone ever breaks \BLANK.
 I'm hoping to avoid 2/3 of the program committee, because my paper is on \BLANK.
 I'm sorry, Professor, but I couldn't complete my homework because of \BLANK.
 ISO standardization efforts were subverted by \BLANK.
+I've had it with these blockchain bros! ``Crypto'' means \BLANK.
 It took 72,000 instances, but I finally cracked \BLANK.
 It turns out that my company's password policy requires \BLANK.
 My academic CV says I'm an expert on \BLANK.
@@ -51,8 +50,9 @@ My upcoming publication on \BLANK uses \BLANK.
 Oh no! I just saw Koblitz and Menezes taking another look at \BLANK.
 One regret I have from my PhD is \BLANK.
 Putting \BLANK in my application helped me immensely.
-Remembering \BLANK, then immediately vomiting.
 RWC was already full when I tried to register because I was too busy \BLANK.
+Remembering \BLANK, then immediately vomiting.
+TSA guidelines now prohibit \BLANK on airplanes.
 Talk dirty to me, baby. Tell me about \BLANK.
 The Bletchley Park Museum has just opened an interactive exhibit on \BLANK.
 The Israeli government stores its data with \BLANK.
@@ -62,7 +62,7 @@ The talk that had the most influence on my personal life was \BLANK.
 The thing I love most about staying in the UCSB dorms during Crypto is \BLANK.
 The way things are going, the best paper at Crypto 2048 will probably be about \BLANK.
 There is nothing quite like \BLANK, alone in the office at night.
-TSA guidelines now prohibit \BLANK on airplanes.
+WTF! My paper on \BLANK just got rejected from the ePrint server.
 What ended my last relationship?
 What gets better with age?
 What is the best way to wind down at the end of a hard day?
@@ -75,3 +75,5 @@ When my crypto patents turn me into a billionaire, I will erect a 50-foot statue
 Why can't I sleep at night?
 WTF! My paper on \BLANK just got rejected from the ePrint server.
 Yo' momma so dumb she encrypts her files with \BLANK.
+\BLANK kept me up all night.
+\BLANK was the last thing I expected to find in Edward Snowden's leaked documents.

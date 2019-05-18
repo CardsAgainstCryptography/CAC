@@ -1,0 +1,51 @@
+A Facebook friend request from a cryptographer I~actually despise.
+A long-term nonce.
+A tight security reduction to the problem of fending off a sexually voracious goat.
+A violent and bloody PhD defence.
+Academic integrity.
+An inappropriate workplace romance.
+An overlooked patent.
+Asking for 2 room keys during check-in, knowing full well I'm not getting laid.
+Bart Preneel's \\ private key.
+Being forced to attend social events because I'm the visitor's official host.
+Being the only smartly dressed person in the room.
+Bragging about getting held up at Border Control for saying I'm a cryptographer. 
+Conferences with 5 submissions at 11:59pm.
+Dual\_EC\_DRBG.
+Deadline day flatulence.
+Doing Facebook maths puzzles to show I am better than those idiot 97\%.
+Falling asleep in a 5-person meeting.
+Feeling flattered because a conference spam email addressed me as Professor.
+Flirting with people at the conference registration desk.
+GDPR requirements.
+Government-mandated backdoors.
+Hands-on supervision.
+Hiding my conflict of interest.
+My automated reply saying ``email responses will be delayed'', when I know damn well I'll be online with high-speed internet access 24/7.
+My crypto blog views getting into the double digits.
+My dear friend the Program Chair overruling 3 borderline rejects on my paper.
+My inflated sense of self-importance that warrants my PGP key.
+My much more successful career as a singer after rocking the Crypto rump session.
+My second divorce.
+My successful career at a patent troll company.
+Pretending to care when my vegetarian coauthor complains about the lack of banquet options.
+Pubic key cryptography.
+Purchasing the Springer hardcopies I publish in because my mom is collecting them.
+Quantum key distribution.
+Security through obscurity.
+Serious rump session speakers.
+Social sciences.
+Someone less senior than me signing off with ``Thanks in advance''.
+That feeling when my article is sitting pretty at the top of the ePrint archive.
+That one asshole who's always sleeping during my Eurocrypt talks.
+The MIT Mafia.
+The latest dance mix album by DJ~Bernstein.
+The one person I don't want to get stuck next to on the conference excursion bus.
+The student body.
+Throwing a party for my next citation milestone.
+Tweeting about my paper acceptance.
+Using ``we should talk about this offline'' because the question exposes holes in my paper.
+WalnutDSA.
+Wearing a T-shirt with a Linux joke.
+When you realize that quantum computers have been 10 years away for 3 decades.
+Yet another cryptographer falling into the blockchain startup abyss.

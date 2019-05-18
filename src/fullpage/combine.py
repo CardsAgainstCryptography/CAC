@@ -1,4 +1,11 @@
-sources = ["../black.txt", "../white.txt"]
+import os
+
+black_prefix = os.environ["BLACK"] if "BLACK" in os.environ else "black"
+white_prefix = os.environ["WHITE"] if "WHITE" in os.environ else "white"
+black_txt = "../" + black_prefix + ".txt"
+white_txt = "../" + white_prefix + ".txt"
+
+sources = [black_txt, white_txt]
 destinations = ["black.data", "white.data"]
 
 preamble = "\\noindent \\begin{tikzpicture}[remember picture, overlay] \\node [shift={(0.1in,0in)}]  at (current page.south west) { \\begin{tikzpicture}[remember picture, overlay,yscale=-1,line width=1pt] "

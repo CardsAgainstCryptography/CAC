@@ -1,5 +1,8 @@
+WHITE=white
+BLACK=black
+
 all:
-	python3 generate.py
+	WHITE=${WHITE} BLACK=${BLACK} python3 generate.py
 
 clean:
-	rm -f *.aux *.log *.pdf *.png FRONT* BACK*
+	rm -f *.aux *.log *.pdf *.png *FRONT* *BACK*
