@@ -4,13 +4,12 @@
 2-sentence Eurocrypt reviews.
 4mm reasonable margins.
 A 25-year old policy on sexual harassment.
-A 5-cycle speedup.
 A Facebook friend request from a cryptographer I~actually despise.
 A career-limiting card game.
 A dancing cryptographer.
 A genuine attempt to configure IPsec.
 A hand wavy argument.
-A hardcoded nonce.
+A long-term nonce.
 A non-fabricated use of pairings.
 A painfully slow Tor masturbation session.
 A popup Skype notification from ``lovemachine69'' during my keynote talk.
@@ -33,7 +32,6 @@ An overfull hbox.
 An overlooked patent.
 Arriving 13 minutes late to a 15 minute talk and having the gall to ask a question.
 Asking for 2 room keys during check-in, knowing full well I'm not getting laid.
-Bad attacker models.
 Bart Preneel's \\ private key.
 Beefing up my Proposition to a Theorem because I'm that awesome.
 Being forced to attend social events because I'm the visitor's official host.
@@ -44,9 +42,7 @@ Brexit.
 Checking my Google Scholar profile daily.
 Chocolate-covered shrimp.
 Citing personal communication.
-Clipper chip v2.0.
 Conferences with 5 submissions at 11:59pm.
-Copying code from PDF files.
 Crippling student debt.
 Crypto wars.
 Deadline day flatulence.
@@ -57,11 +53,9 @@ Doing Facebook maths puzzles to show I am better than those idiot 97\%.
 Double ROT-13.
 Drinking alone.
 Dropping the word Blockchain into my research proposal as many times as possible.
-DUAL\_EC.
-E-voting.
+Dual\_EC\_DRBG.
 Encrypted database security definitions.
 Explaining what my job is at a family reunion.
-Export restrictions.
 Falling asleep in a 5-person meeting.
 Feeling flattered because a conference spam email addressed me as Professor.
 Fighting over LaTeX syntax.
@@ -76,7 +70,7 @@ Getting stuck at the French-speaking banquet table.
 Getting tenure, then chilling the f--- right out!
 Getting turned on by a proof.
 Going straight to journal.
-Government mandated backdoors.
+Government-mandated backdoors.
 HTTPS everywhere!
 Hands-on supervision.
 Having to write a polite rebuttal to the reviewer who clearly didn't read past page 2.
@@ -108,7 +102,6 @@ My successful career at a patent troll company.
 My supervisor's morning breath.
 Nigel Smart's new Hawaiian shirt.
 Overselling it hard in the introduction.
-Padding oracles.
 Password1.
 Picturing the FSE audience naked.
 Politely starting an answer with ``That's a good question...'', when the question is actually idiotic.
@@ -123,12 +116,10 @@ Putting an outdoors-y photo on my academic webpage to look well-rounded.
 Quadruple XOR.
 Quantum key distribution.
 Quickly trying to peek at someone's badge as I shake their hand, but it's flipped backwards.
-Randomness by dice roll.
 Reading the person in front's emails.
 Relatives who ask me to help them install their printer on Windows.
 Rogaway's loose morals.
 Satoshi Nakamoto.
-Schoolbook RSA.
 Security through obscurity.
 Sending an email at 11pm so people think I work hard.
 Serious rump session speakers.
@@ -150,7 +141,6 @@ The NSA's massive stack of amateur porn.
 The North Korean Cryptographic Standard.
 The awkward question the chair asks when nobody understood the talk.
 The awkward silence of 8 people standing in a circle during the afternoon coffee break.
-The CAESAR competition deadline.
 The great firewall of China.
 The great paywall of IEEE.
 The intoxicating aroma of 12 PhD students in one office.
@@ -159,7 +149,6 @@ The one person I don't want to get stuck next to on the conference excursion bus
 The one really hot person at CHES registration drinks.
 The one suit I own for meetings with industry.
 The person in the front row taking photos of every slide.
-The pqc-forum mailing list.
 The secret flash drive hidden in my underwear.
 The student body.
 The walking zombie corpse of Claude Shannon.
@@ -171,7 +160,6 @@ Turning up to one meeting and claiming co-authorship.
 Tweeting about my paper acceptance.
 Unbreakable military-grade encryption.
 Undergrads.
-Unnecessary Star Wars references.
 Using Beamer because it's social suicide to use PowerPoint.
 Using ``it clearly follows'' when the implied following is anything but clear.
 Using ``we should talk about this offline'' because the question exposes holes in my paper.
