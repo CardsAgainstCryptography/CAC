@@ -16,7 +16,6 @@ A painfully slow Tor masturbation session.
 A popup Skype notification from ``lovemachine69'' during my keynote talk.
 A proof that appears in the ``full version''.
 A shepherd that won't budge.
-A USB rubber ducky.
 Aaron Aaronson's insistence on alphabetical author ordering.
 Accidentally sexting my co-supervisor.
 Actually being ``sorry for the late reply''.
@@ -28,7 +27,7 @@ An insecure VPN straight to the Kremlin.
 An overfull hbox.
 An SSL vulnerability with a silly name.
 Arriving 13 minutes late to a 15 minute talk and having the gall to ask a question.
-Bart Preneel's private key.
+Bart Preneel's \\ private key.
 Beefing up my Proposition to a Theorem because I'm that awesome.
 Best rejected paper award.
 Brexit.
