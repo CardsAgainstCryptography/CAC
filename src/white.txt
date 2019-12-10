@@ -175,3 +175,4 @@ Yet another cryptographer falling into the blockchain startup abyss.
 \texttt{Ctrl+F}'ing to see how many times I'm cited and finding ``0 results''.
 ``Working'' remotely.
 {\comicsans A slide deck entirely in Comic Sans.}
+Misspelling my own name in the abstract of my paper.
