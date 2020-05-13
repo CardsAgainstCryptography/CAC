@@ -1,5 +1,6 @@
 #!/usr/local/bin/python3
 
+import glob
 import os
 import subprocess
 
@@ -21,9 +22,14 @@ sources = [black_txt, white_txt]
 templates = ["black", "white"]
 
 output_directory = "../../PNGs-to-print/individual-cards"
+try:
+    os.mkdir(output_directory)
+except FileExistsError:
+    pass
 
-subprocess.run(["rm", "-rf", output_directory])
-os.mkdir(output_directory)
+old_pngs = glob.glob(output_directory + "/*.png")
+for old_png in old_pngs:
+    subprocess.run(["rm", old_png])
 
 j = 0
 

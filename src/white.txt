@@ -1,7 +1,9 @@
+100\% talks, \\ 0\% human interaction.
 16-bit AES.
 17 slides for a 3-minute rump session talk.
 2 to 4 kilograms of top quality amphetamines.
 2-sentence Eurocrypt reviews.
+387 contact tracing papers submitted to Eurocrypt 2021.
 4mm reasonable margins.
 A 25-year old policy on sexual harassment.
 A Facebook friend request from a cryptographer I~actually despise.
@@ -30,6 +32,7 @@ An inappropriate workplace romance.
 An insecure VPN straight to the Kremlin.
 An overfull hbox.
 An overlooked patent.
+Arguing savagely against contact tracing so no one finds out that I don't get invited to parties.
 Arriving 13 minutes late to a 15 minute talk and having the gall to ask a question.
 Asking for 2 room keys during check-in, knowing full well I'm not getting laid.
 Bart Preneel's \\ private key.
@@ -45,9 +48,11 @@ Citing personal communication.
 Conferences with 5 submissions at 11:59pm.
 Crippling student debt.
 Crypto wars.
+Day drinking.
 Deadline day flatulence.
 Deliberately hiding inefficiencies inside the big O.
 Deliberately not referencing a superior paper.
+Desperately trying to plug my crypto research into a grant application on pandemic prevention.
 Diffie but definitely not Hellman.
 Doing Facebook maths puzzles to show I am better than those idiot 97\%.
 Double ROT-13.
@@ -73,6 +78,8 @@ Going straight to journal.
 Government-mandated backdoors.
 HTTPS everywhere!
 Hands-on supervision.
+Having time to catch up on my reading, \\ then not doing it.
+Having to wear pants.
 Having to write a polite rebuttal to the reviewer who clearly didn't read past page 2.
 Hiding my conflict of interest.
 Hillary Clinton's BlackBerry.
@@ -101,6 +108,10 @@ My side job as an incompetent security consultant.
 My successful career at a patent troll company.
 My supervisor's morning breath.
 Nigel Smart's new Hawaiian shirt.
+Not being important enough to be asked to sign the public statement on contact tracing.
+Not feeling guilty about falling asleep during the keynote.
+Not having to wear pants.
+Not needing to pretend to listen to the other speakers in my session.
 Overselling it hard in the introduction.
 Password1.
 Picturing the FSE audience naked.
@@ -118,6 +129,7 @@ Quantum key distribution.
 Quickly trying to peek at someone's badge as I shake their hand, but it's flipped backwards.
 Reading the person in front's emails.
 Relatives who ask me to help them install their printer on Windows.
+Remembering when `working from home' meant a day off.
 Rogaway's loose morals.
 Satoshi Nakamoto.
 Security through obscurity.
@@ -150,6 +162,7 @@ The one really hot person at CHES registration drinks.
 The one suit I own for meetings with industry.
 The person in the front row taking photos of every slide.
 The secret flash drive hidden in my underwear.
+The sound of 50 people on a Zoom call all trying to speak at once.
 The student body.
 The walking zombie corpse of Claude Shannon.
 Thinking I'm so clever for using pictures of Alice (Cooper) and Bob (Marley).
